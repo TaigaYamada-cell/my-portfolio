@@ -1,0 +1,94 @@
+/*
+*背景画像
+*/
+body {
+    margin: 0;
+}
+
+.container-main {
+    background-image: url(img/back.png);
+    height: 670px;
+}
+
+/*
+*ヘッダー
+*/
+.block-header {
+    padding: 15px;
+    font-size: 6px;
+}
+
+.block-header a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+.block-header span {
+    letter-spacing: 2.5px;
+    margin: 13px;
+    border-bottom: solid 3px #6AEDC8;  
+}
+.block-header div{
+    display: inline;
+    margin-right: 10px;
+}
+
+.block-main .block-profile {
+
+
+}
+
+.block-main .block-profile img {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+   
+}
+
+.block-main .block-profile .inner {
+    
+    padding-top: 160px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.block-main .block-profile .inner .inner-block {
+    text-align: center;
+    padding-top: 65px;
+    padding-left: 50px;
+}
+
+.inner-block h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.inner-block p {
+    
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
+    letter-spacing: 2px;
+
+}
+
+.inner-block span{
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+.inner-block div {
+    height: 40px;
+    width: 230px;
+    border-bottom: 1px solid #6AEDC8;
+    margin-left: 40px;
+}
