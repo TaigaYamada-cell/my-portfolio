@@ -39,6 +39,9 @@ body {
 
 }
 
+/*
+*mainのスタイルシート
+*/
 .block-main .block-profile img {
     padding: 10px;
     width: 250px;
@@ -91,4 +94,59 @@ body {
     width: 230px;
     border-bottom: 1px solid #6AEDC8;
     margin-left: 40px;
+}
+
+/*
+*Aboutのスタイルシート
+*/
+
+.block-about {
+
+}
+
+.block-about .item-list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block-about .item-list h2 {
+    font-family: ui-sans-serif;
+    font-weight: 250;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.block-about .item-list .img {
+    text-align: center;
+    margin-bottom: 60px
+}
+
+.block-about .item-list .text-list {
+    display: inline;
+    text-align: center;
+}
+
+.block-about .item-list p {
+    margin-top: 40px;
+    padding-left: 275px;
+    padding-right: 275px;
+    letter-spacing: 2px;
+}
+
+.block-about .item-list .icon-list {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.block-about .item-list .icon-list li {
+    display: inline;
+    margin-right: 40px; 
+}
+
+.block-about .item-list .icon-list .smaller {
+    width: 60px;
+}
+
+.block-about .item-list .icon-list img {
+    width: 50px;
 }
